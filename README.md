@@ -27,7 +27,7 @@ text-summarizer/
 
 Install dependencies using:
 
-```bash
+Copy and paste this in terminal:
 pip install -r requirements.txt
 
 ## ▶️ Run the App
