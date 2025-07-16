@@ -42,9 +42,9 @@ facebook/bart-large-cnn
 
 This model is pre-trained for abstractive summarization and performs exceptionally well on articles and reports.
 
-Author
+## Author
 Saikat Jana
 📂 GitHub: Saik-at
 
-📄 License
+## 📄 License
 This project is open-source under the MIT License.
