@@ -30,14 +30,14 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 
-▶️ Run the App
+## ▶️ Run the App
 To launch the Streamlit app:
 
 run this in terminal:
 streamlit run streamapp.py
 Then go to the browser window that opens (usually http://localhost:8501)
 
- Model Used
+## Model Used
 facebook/bart-large-cnn
 
 This model is pre-trained for abstractive summarization and performs exceptionally well on articles and reports.
