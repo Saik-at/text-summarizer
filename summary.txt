@@ -1,0 +1,49 @@
+Project Title
+Generative Text Summarization (Prototype)
+
+Objective
+To build an AI-powered tool that automatically generates concise summaries from long-form input text using a large pre-trained language model.
+
+Tools & Technologies
+Python
+
+HuggingFace Transformers (BART model)
+
+Streamlit (for frontend UI)
+
+Key Components
+1. summarizer.py
+Contains the core logic for summarization.
+
+Loads the facebook/bart-large-cnn model from HuggingFace.
+
+Exposes a generate_summary() function to produce summaries based on length parameters.
+
+2. app.py
+Interactive Streamlit application.
+
+Provides a user-friendly text box for pasting long content.
+
+Displays summary output on button click.
+
+Clean separation from the summarizer logic for modularity and testing.
+
+How It Works:
+Users paste long paragraphs (articles, blog posts, reports, etc.)
+
+The app sends the input to a pre-trained BART model
+
+A summary is generated using greedy decoding (non-random) with length constraints
+
+The output is displayed in real time through the UI
+
+
+Key Takeaways
+Learned to work with transformer-based models using HuggingFace
+
+Built a functional NLP prototype with clean module separation
+
+Used Streamlit for real-time, interactive model inference
+
+Designed a user experience optimized for clarity and minimalism
+
